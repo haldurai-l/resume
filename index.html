@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dr. [Your Name] – Assistant Professor</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    nav {
+      background-color: #2c3e50;
+      padding: 20px;
+      color: white;
+    }
+    nav h3 {
+      color: #ecf0f1;
+      cursor: pointer;
+    }
+    nav select {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      background-color: #34495e;
+      color: #ecf0f1;
+    }
+    nav select option {
+      background-color: #2c3e50;
+      color: #ecf0f1;
+    }
+    header {
+      padding: 30px 20px;
+      background: linear-gradient(to right, #2980b9, #6dd5fa);
+      color: white;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    main {
+      padding: 20px;
+      background-color: #ffffff;
+      border-radius: 8px;
+      margin: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      padding: 15px;
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: 20px auto 0;
+      border: 4px solid #fff;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+    }
+    .sidebar {
+      min-width: 250px;
+      background-color: #2c3e50;
+      height: 100%;
+      padding: 20px;
+    }
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .sidebar {
+        width: 100%;
+        position: relative;
+      }
+      header, footer, main {
+        margin-left: 0;
+      }
+      main {
+        margin: 10px;
+      }
+    }
+  </style>
+  <script>
+    function navigateToSection(selectElement) {
+      const sectionId = selectElement.value;
+      if (sectionId) {
+        window.location.hash = sectionId;
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>Dr. [Your Full Name]</h1>
+    <p>Assistant Professor, Department of [Your Department]</p>
+    <img src="profile.jpg" alt="Dr. [Your Name]" style="width:150px;height:auto;border-radius:50%;" />
+  </header>
+<section id="top">
+
+  <div class="container">
+    <nav class="sidebar">
+      <h3>Menu</h3>
+      <select onchange="navigateToSection(this)">
+        <option value="">Select Section</option>
+        <option value="#qualifications">Educational Qualifications</option>
+        <option value="#interests">Area of Interest</option>
+        <option value="#certifications">Certifications</option>
+        <option value="#books">Book Publications</option>
+        <option value="#book-chapters">Book Chapters</option>
+        <option value="#patents">Patents</option>
+        <option value="#events">Conferences/Events Organized</option>
+        <option value="#titles">Titles</option>
+        <option value="#experience">Experience</option>
+        <option value="#guidance">Research Guidance</option>
+        <option value="#resource-person">Resource Person</option>
+        <option value="#online-courses">Online Courses</option>
+        <option value="#journals">Journals Published</option>
+        <option value="#papers">Paper Publications</option>
+        <option value="#participation">Conferences/Workshops/Seminars Attended</option>
+        <option value="#awards">Awards</option>
+        <option value="#memberships">Memberships</option>
+        <option value="#identity">Academic Identity</option>
+        <option value="#citations">Citations</option>
+        <option value="#personal">Personal Information</option>
+      </select>
+    </nav>
+
+    <main class="content">
+      <!-- Sections remain unchanged -->
+      <!-- All sections from #qualifications to #personal -->
+
+
+<section id="qualifications">
+      <h2>Educational Qualifications</h2>
+     
+<ul><li>M.Phil	Computer Science	Bharathiar University</li>
+<li>M.C.A	Computer Applications	Bharathiar University</li>
+<li>M.Sc	Applied Psychology	Bharathiar University</li>
+<li>B.Ed	Computer Science	Tamilnadu Teachers Education University</li>
+<li>B.Sc	Computer Science	Bharathiar University</li></ul>
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="interests">
+      <h2>Area of Interest</h2>
+Data Mining, Data Communications, Artificial Intelligence
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="certifications">
+      <h2>Certifications</h2>
+Sun Certified Associate in Java Platform (SCJA)<br>
+
+Diploma in Computer Applications (DCA)
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="books">
+      <h2>Book Publications</h2>
+      <ol><li>Published a Book on “Fundamentals of Edge Computing”, Notion Press, September 2024, ISBN: 979-889556715-9.</li>
+<li>Published a Book on “Ant Colony Optimization Concepts and Techniques”, Notion Press, February 2024, ISBN: 979-8892774505.</li>
+<li>Published a Book on “An Introduction to Machine Learning”, Notion Press, December 2023, ISBN: 979-8892332538.</li>
+<li>Published a Book on “It Nugget”, Teck Learnings Publication, April 2018.</li></ol>
+
+    </section>
+
+<a href="#top" >Top</a>
+
+
+    <section id="book-chapters">
+      <h2>Book Chapter Publication</h2>
+      <ol><li>Published a Book Chapter on “Predictive Analytics with Machine Learning: Business Applications and Best Practices”, in the peer reviewed edited book entitled “Fusion of Knowledge: Multidisciplinary Perspectives in Research, Volume-1”, ISBN: 978-93-5879-115-0, DOI: 10.25215/9358791152, Red Shine Publication, September 2023.</li></ol>
+    </section>
+<a href="#top" >Top</a>
+    <section id="patents">
+      <h2>Patent Published</h2>
+      <ul><li>Received a Design Patent Grant on “Water Filtration System for Heavy Metal Removal”, Design No: 444746-001, Application date: 09.01.2025, Issued date: 28.04.2025</li>
+<li>Received a Design Patent Grant on “Dermatoscope”, Design No: 429005-001, Application date: 01.09.2024, Issued date: 25.10.2024.</li>
+<li>Published a Patent on “Packet Sniffer and Detection of Data Breach in Network Path Analysis”, Patent Number: 202241053328 A, The Patent Office Journal N. 41/2022 Dated 14/10/2022.</li>
+<li>Published a Patent on “A Novel Technique for Digital Marketing using Artificial Intelligence and Blockchain”, Patent Number: 202211042699, The Patent Office Journal N. 31/2022 Dated 05/08/2022.</li></ul>
+    </section>
+<a href="#top" >Top</a>
+    <section id="events">
+      <h2>Conference / Event Organized</h2>
+      <ul><li>Organized a Seminar on “Transformative Impact of Artificial Intelligence in the Finance Sector” during December 2024.
+<li>Organized a Two days hands-on workshop on “End to End Innovation: The Ultimate Guide to Synergizing Modern Web” during December 2024.</li>
+<li>Organized a Career Guidance Programme on “Interview Secrets: How to Stand Out and Get Hired” for Final year students on 02.07.2024.</li>
+<li>Acted as an Organizing Committee Member in ISCA Sponsored “National Conference on Scientific Input, Technological Advancement and Women Empowerment for Sustainable Development” jointly organized by ISCA, Coimbatore Chapter and KASC at Kongunadu Arts and Science College, Coimbatore during (2nd to 3rd - FEB - 2023).</li>
+<li>Organized ISCA Sponsored Capacity Building Program on “Effective Digital Teaching Learning Tools for Government School Teachers” at VCV Govt. Higher Secondary School, Vellakinar, Coimbatore on 04.03.2022.</li>
+<li>As a NDLI Club Coordinator Organized “User Awareness Orientation Programme” for Department of Computer Science (PG) Students on 07.09.2021 </li>
+<li>Acted as Organizing Secretary (NDLI) for conducting E-Quiz Competition – “Expert Systems and Knowledge Engineering” for the Students of Department of 
+Computer Science (PG)  on 17.11.2020.</li>
+<li>Acted as an Organizing Committee Member in ISCA Sponsored “National Conference on Empowerment of Rural Communities Through Innovations in Science and Technology” jointly organized by ISCA, Coimbatore Chapter and KASC at Kongunadu Arts and Science College, Coimbatore during (21 to 22 - FEB - 2020).</li>
+<li>Acted as an Organizing Committee Member in “International Conference on Impact of Innovations in Science and Technology for Societal Development (IISTD-2019)” at Kongunadu Arts and Science College, Coimbatore during (19 to 21 - SEP - 2019).</li></ul>
+    </section>
+<a href="#top" >Top</a>
+    <section id="titles">
+      <h2>Titles</h2>
+     Technical Support and Copy Editor in Int.J.Bioscience and Nanoscience.<br>
+Reviewer Board Member in Int.J. Engineering Research and Technology
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="experience">
+      <h2>Experience</h2>
+    Worked as an Assistant Professor in the Department of Computer Science (AI & DS), Sri Ramakrishna College of Arts & Science), Coimbatore.
+Period :   May 2024 to Jan 2025. <br>
+
+Worked as an Assistant Professor in the Department of Computer Science (PG), Kongunadu Arts and Science College, Coimbatore.
+Period:   June 2009 to May 2024. (15 Years)<br>
+
+Worked as a Jr. Tab Programmer in Ugam Solutions, Coimbatore.
+Period:   September 2008 to April 2009.
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="guidance">
+      <h2>Research Guidance</h2>
+      <p>No of M.Phil Produced : 1</p>
+    </section>
+<a href="#top" >Top</a>
+    <section id="resource-person">
+      <h2>Resource Person</h2>
+      Acted as resource person in State Level "Young Students Scientist Programme (YSSP)" sponsored by CPE, UGC (New Delhi) at Kongunadu Arts and Science College, Coimbatore on 29-12-2015.<br>
+
+Acted as resource person in "Computer Literacy Programme” for Tamilnadu Police Professionals at Kongunadu Arts and Science College, Coimbatore.
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="online-courses">
+      <h2>Online Courses</h2>
+<ul><li>Successfully completed online course on “Computer Vision 101” on 29th october 2024. (Infosys springboard)</li>
+<li>Successfully completed online course on “Introduction to Data Science” on 6th August 2024. (Infosys springboard)</li>
+<li>Successfully completed online course on “Introduction to Natural Language Processing” on 9th July 2024. (Infosys springboard)</li>
+<li>Successfully completed online course on “Introduction to Deep Learning” on 6th July 2024. (Infosys springboard)</li>
+<li>Successfully completed online course on “Introduction to Artificial Intelligence” on 6th July 2024. (Infosys springboard)</li>
+<li>Successfully completed online course on “Advances in Monitoring and Modeling of Hydro-Meteorological Hazards using Geospatial Technology and Process Based Models” organised by ISRO, Indian Institute of Remote Sensing, Dehradun from 05.12.2022 to 09.12.2022.</li>
+<li>Successfully completed online course on “Geo-data sharing and Cyber Security” organized by ISRO, Indian Institute of Remote Sensing, Dehradun from 17.10.2022 to 21.10.2022.</li></ol>
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="journals">
+      <h2>Journal(s) Published</h2>
+<ol><li>R Naveenkumar, Shantanu Bhadra, L. Haldurai, S. Visalakshi, Nitin Kumar, “Environmental Artificial Intelligence Paving the Way for a Greener and More Resilient Planet using Machine learning”, Journal of Computational Analysis and Applications, 1521-1398 (Paper),1572-9206 (Online), Vol-33, Issue no-7, pp 1177-1185, Sep 2024. [SCOPUS]</li>
+<li>Mereena Johny and L. Haldurai (2018), “Knowledge Based Unsupervised Object Discovery Using Probabilistic Randomized Hough Transform (PRHT) With Deep Learning Classification (DLC)”, International Journal of Computer Sciences and Engineering, Volume-6, Issue-12, Page No (830-836), Dec-2018, E-ISSN: 2347-2693.</li>
+<li>Mereena Johny and L. Haldurai (2018), “A Brief Survey On Dynamic Topic Model for Unsupervised Object Discovery and Localization”, International Journal of Computer Sciences and Engineering, Volume-06, Issue-09, Page No (567-571), Sep -2018, E-ISSN: 2347-2693.</li>
+<li>S. Gomathi and L. Haldurai (2016), "Prediction of Bugs in Software Repositories", International Journal of Computer Sciences and Engineering, Volume-04, Issue-12, Page No (33-37), Dec -2016, E-ISSN: 2347-2693.</li>
+<li>L. Haldurai, T. Madhubala and R. Rajalakshmi (2016), "A Study on Genetic Algorithm and its Applications", International Journal of Computer Sciences and Engineering, Volume-03, Issue-11, Page No: 139-143, E-ISSN: 2347-2693.</li>
+<li>L. Haldurai, R. Ranjithkumar, D. Rajmohan (2016), “Data Mining Algorithms and its Applications in Health Care Sectors”, International Journal of Biosciences and Nanosciences. Vol: 5, Issue: 1, Page :144-148.</li>
+<li>Rajmohan Devadass, Haldurai Lingaraj, Ranjithkumar Rajamani, Logankumar Kandasamy and Chandar Shekar Bellan (2016), “Data mining on crude, partially purified and doped silver nanoparticles of two plant species against dengue vector, Aedes aegypti”, Journal of Biology and Nature, Page :22-25, Vol: 5, Issue: 1,            E-ISSN: 2395-5384 .</li>
+<li>L. Haldurai and V. Vinodhini (2015), "Parallel Indexing on Color and Texture Feature Extraction using R-Tree for Content Based Image Retrieval", International Journal of Computer Sciences and Engineering, Volume-03, Issue-11, Page No: 11-15, E-ISSN: 2347-2693.</li>
+<li>L. Haldurai, V. Vinodhini (2015), “A Study on Content Based Image Retrieval Systems”, Int.J. Innovative Research in Computer and Communication Engineering, Vol:3 Issue:3 Page: 2554-2559, DOI : 10.15680/ijircce.2015.0303186, E-ISSN: 2320-9801.</li>
+<li>Haldurai Lingaraj, Rajmohan Devadass, Vidya Gopi, Kaliraj Palanisamy (2015), “Prediction of Diabetes Mellitus using Data Mining Techniques: A Review”. Journal of Bioinformatics & Cheminformatics, 1(1) Page:1-3.</li>
+<li>Rajmohan Devadass, Haldurai Lingaraj, Vidya Gopi, Gokilavani Rajan, Madhubala Thirunavukarasu (2015),“Data Visualization Techniques on Partially Purified Plant Extracts against Aedes aegypti (Culicidae: Diptera)”,Int.J. Advanced Research in Computer Science and Software Engineering Vol:5 Issue:1 Page:913-916, E-ISSN: 2277-6451.</li>
+<li>Rajmohan Devadass, Haldurai Lingaraj and Logankumar Kandhasamy (2014). “Exploratory Data Mining of some plant species against Aedes Aegypti”. Int.J.Pharm Drug Anal Vol: 2 Issue:8 Page:624-628, E-ISSN: 2348-8948.</li></ol>
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="papers">
+      <h2>Paper Publications</h2>
+      <ol><li>Published a paper on “A Study on Artificial Intelligence Methods in Product Development and Design” in International Conference on Innovate with AI: Strategies for Business Success in the Digital Era- ICON – 2K24, Organized by Sri Ramakrishna College of Arts & Science, ISBN 978-81-971599-0-9 on 10.09.2024.</li>
+<li>Published a paper in International Conference on “Bioscience towards a Sustainable Future” on “Artificial Intelligence in Agriculture” page. 82 at KSG College of Arts and Science, Coimbatore (12 - FEB - 2020).</li>
+<li>Published a paper in International Conference on “Bioscience towards a Sustainable Future” on “Big Data in Biomedical and Health Care” page. 82 at KSG College of Arts and Science, Coimbatore (12 - FEB - 2020).</li>
+<li>Published a paper in International Conference on “Bioscience towards a Sustainable Future” on “Data Mining in Bioinformatics – A Review” page. 81 at KSG College of Arts and Science, Coimbatore (12 - FEB - 2020).</li>
+<li>Published a paper in International Conference on Impact of Innovations in Science and Technology for Societal Development (IISTD-2019) on “A Study on Face Recognition System” at Kongunadu Arts and Science College, Coimbatore (19 to 21 - SEP - 2019).</li>
+<li>Published a paper in National Conference on Advanced Trends in Information Technology on “Genetic Based Content Based Image Retrieval using K-Means Clustering” pp.25 at Dr. N. G. P College of Arts and Science, Coimbatore. (24-FEB- 2016).</li>
+<li>Published a paper in National Conference on Medicinal Plants and Health Care on “Exploratory Data Mining of Medicinal Plants of the Nilgiri Hills, Tamilnadu, India using Hierarchical Clustering Analysis” pp.70, (ISBN: 978-93-80800-52-3) at Kongunadu Arts and Science College, Coimbatore (17-MAR-2015).</li>
+<li>Published a paper in International Conference on Innovation and Implementation of Information Technology in Global Business on “A Study on Cyber Crime” pp.175-176, (ISBN: 978-93-83459-00-1) at Kongunadu Arts and Science College, Coimbatore (03- FEB-2014).</li>
+<li>Published a paper in National Level Conference on Advanced Trends in Information Technology on “Role of Computer Assisted Instruction in Colleges” pp.19, (ISBN: 938054317-4) at Dr. N.G.P. College of Arts and Science, Coimbatore. (21-FEB-2013).</li>
+<li>Presented a paper in National Level Conference on Innovative and Challenging Strategies in Management on “Knowledge Management” at Kongunadu Arts and Science College, Coimbatore (20-SEP-2013).</li>
+<li>Published a paper in proceedings of Centenary Year of ISCA on Information and Communication Science & Technology on “VNC - Based Accessing Remote Systems using Cellular Phones” pp.26 at Kongunadu Arts and Science College, Coimbatore (15- 16, DEC-2012).</li>
+<li>Published a paper in proceedings of Centenary Year of ISCA on Anthropological and Behavioural Sciences on “Perceptual Organization and Constancies” pp.47-48 at Kongunadu Arts and Science College, Coimbatore (15-16, DEC-2012).</li></ol>
+    </section>
+<a href="#top" >Top</a>
+    <section id="participation">
+      <h2>Conference/Workshops/Seminar Participated</h2>
+<ol><li>Participated and completed AICTE Training and Learning (ATAL) Academy Faculty Development Program on Sustainable Energy Solutions for Achieving The SDGS: A Policy and Management Perspective at Sri Ramakrishna College of Arts and Science from 18/11/2024 to 23/11/2024.</li>
+<li>Participated in Two days faculty development programme on “Critical and Creative Thinking Skills” organized by Michael job memorial college of education for women, Coimbatore from 5th to 6th August 2024.</li>
+<li>Participated in Seven days faculty development programme on “Implications of Emerging Computing Technologies” organized by Hindusthan College of arts and science, Coimbatore, from 29th July to 4th August 2024.</li>
+<li>Participated in a webinar on “Quantum Horizons: Revolutionizing healthcare with Quantum Computing” organized by School of Computer Science & Engineering and School of Information Science- Presidency University in association with IEEE Student chapter, on 17th July 2024. </li>
+<li>Participated in the Online Workshop on “Data Analytics & AI” organized by Centre for Computer Science and Information Technology (CCSIT), Manjeri, University of Calicut in association with ipsr solutions limited on 15th June 2024.</li>
+<li>Participated 7 days faculty development programme on “Essential Skills For Professional Development In Higher Education” organized by Star International Foundation for Research and Education from 01.07.2024 to 07.07.2024.</li>
+<li>Participated in Faculty Development Programme on “Interdisciplinary Approaches of Machine Learning” organized by the Department of Computer Science(A) and Department of Physics, Kongunadu Arts and Science College (Autonomous) under DBT Star College Scheme on 21.10.2023.</li>
+<li>Participated in Six Days Professional Development Programme on “Upskilling Core Competencies for Computer Science Professionals” organized by School of Computer Science, Kongunadu Arts and Science College (Autonomous), between 09.10.2023 and 14.10.2023.</li>
+<li>Participated in Five Days Faculty Development Programme on “Data Analytics using Python” conducted by ICT Academy from 25.09.2023 and 30.09.2023.</li>
+<li>Participated in Twelve Days Faculty Development Programme on “Developing Human Potentials in Emerging Technologies in Computer Science” organized by School of Computer Science, Kongunadu Arts and Science College (Autonomous), between 04.09.2023 and 16.09.2023.</li>
+<li>Participated in Five Days Faculty Development Programme on “Machine Learning Using Python” organized by Hindustan College of Engineering and Technology between 13.03.2023 and 17.03.2023.</li>
+<li>Participated in Seven Days Faculty Development Programme on Impact of Industry 4.0 on 21st Century Higher Education organized by Internal Quality Assurance Cell (IQAC) and Curriculum Development Cell (CDC), Kongunadu Arts and Science College (Autonomous), between 01.03.2023 and 08.03.2023.</li>
+<li>Participated in Five Days Virtual Faculty Development Programme on “Research & Methodology in Computer Science” organised by KG College of Arts and Science, Coimbatore from 23.01.2023 and 28.01.2023.</li>
+<li>Participated in Five Days National Level Faculty Development Programme on “Artificial Intelligence and Cloud Services” organised by Sri Ramakrishna College of Arts and Science, Coimbatore from 31.10.2022 to 04.11.2022.</li>
+<li>Participated in One Day online workshop titled “Applications of Geospatial Technology in Paleochannel Studies: Potential and Future Trends” organised by ISRO, Indian Institute of Remote Sensing, Dehradun on11.10.2022.</li>
+<li>Participated in One Week Faculty Development Programme on “Advanced Computing Technologies” organised by Nallamuthu Gounder Mahalingam College, Pollachi from 25.07.2022 and 31.07.2022.</li>
+<li>Participated in Seven Days Short-Term Training Programme on “Cyber Security and Threat Landscape” conducted by Kongunadu Arts and Science College, Coimbatore in collaboration with National Cyber Security Standards (NCSS) between 15.03.22 and 22.03.2022.</li>
+<li>Participated in Three Days IEEE R10 EA Funded Capacity Building Workshop on “Artificial Intelligent Techniques to Address Societal Challenges” organized by IEEE India Council from 01.10.2021 and 03.10.2021.</li>
+<li>Participated in Five Days Faculty Development Programme on “Emerging Trends in Data Science” organized by Sri Ramakrishna College of Arts and Science, Coimbatore from 23.08.2021 and 27.08.2021.</li>
+<li>Participated in Five Days Faculty Development Programme on “Introduction to Python Programming” conducted by ICT Academy from 24.05.21 and 28.05.2021.</li>
+<li>Participated in International e-seminar on “Role of Green IoT and its Applications” organized by PSG College of Arts and Science, Coimbatore (29 - MAR - 2021).</li>
+<li>Participated in Five Days Online Workshop on “Creating Android Apps” conducted by Universal Teachers Academy, Puducherry, India from 16.07.20 and 20.07.2020.</li>
+<li>Participated in International Webinar on “Application of AI/ML to Modern Astronomy”organized by SreeNarayana Guru College, Coimbatore (27 - JUN - 2020).</li>
+<li>Participated in 3 days - National Level Webinar series on “Physical Activity Intervention in Enhancing Immunity” organized by Department of Physical Education, Kongunadu Artsand Science College, Coimbatore (10th - 12th JUN - 2020).</li>
+<li>Participated in Faculty Development Programme on “Augmented Reality & Virtual Reality” conducted by IQAC and Sponsored by UGC on 13th February 2019 at Kongunadu Arts and Science College, Coimbatore.</li>
+<li>Participated in Faculty Development Programme on “Dedication, Teaching Techniques & Stress Management” conducted by IQAC and Sponsored by UGC on 11th February 2019 at Kongunadu Arts and Science College, Coimbatore.</li>
+<li>Participated in Faculty Development Programme on “Data Science Perspectives” conducted by IQAC and Sponsored by UGC on 8th February 2019 at Kongunadu Arts and Science College, Coimbatore.</li>
+<li>Participated in International Conference on innovative trends in computer science and Applications (ICITCSA’18) at Pioneer College of Arts and Science, Coimbatore on 4th January 2018.</li>
+<li>Participated in One Day Workshop on “NAAC - Revised Accreditation Framework (RAF) and a Road Map to Higher Educational Institutions” organized by Internal Quality Assurance Cell (IQAC), Kongunadu Arts and Science College, Coimbatore on 28th September 2018.</li>
+<li>Participated in Two Day Faculty Development Programme on “Teaching Techniques” conducted by ICT Academy on 16th & 17th - July 2018 at Kongunadu Arts and Science College, Coimbatore.</li>
+<li>Participated in UGC Sponsored FDP on “Outcome Based Education” organized by IQAC, Kongunadu Arts & Science College, Coimbatore on 14 –DEC- 2017.</li>
+<li>Participated in UGC Sponsored Faculty Development Programme (FDP) organized by IQAC, Kongunadu Arts and Science College, Coimbatore on 15-JUN-2017.</li>
+<li>Participated in UGC Sponsored Faculty Development Programme (FDP) organized by IQAC, Kongunadu Arts and Science College, Coimbatore on 31-MAR-2017.</li>
+<li>Participated in CPE Sponsored Faculty Development Programme organized by Internal Quality Assurance Cell IQAC, Kongunadu Arts and Science College, Coimbatore on 24- MAR-2016.</li>
+<li>Participated in State Level Workshop on “Applications of Statistical Tools using SPSS- Hands on Experience” organized by Kongunadu Arts and Science College, Coimbatore on 11th & 12th - FEB- 2016.</li>
+<li>Participated in National Level Faculty Development Programme on “Man Making Education”, organized by Kongunadu Arts and Science College, Coimbatore on 04-JUL- 2015.</li>
+<li>Participated in National Level Faculty Development Programme - organized by Kongunadu Arts and Science College, Coimbatore on 25-SEP-2014.</li>
+<li>Participated in Second International Conference on Research Trends in Computer Technologies at Dr.N.G.P Arts and Science College, Coimbatore on (30-31, JAN 2014).</li>
+<li>Participated in DBT sponsored National Level Workshop on “Biosafety, Bioethics and Calculations in Biological Sciences” at Kongunadu Arts and Science College, Coimbatore (16-DEC-2013).</li>
+<li>Participated in National Level Faculty Development Programme - 2013 organized by Kongunadu Arts and Science College, Coimbatore (17-AUG-2013).</li>
+<li>Participated in NAAC sponsored State Level Conference on “Innovative Teaching – Evaluation Methodology in Higher Education System” at Kongunadu Arts and Science College, Coimbatore (27-MAR-2013).</li>
+<li>Participated in State Level “Faculty Development Programme – 2012” organized by Kongunadu Arts and Science College, Coimbatore (11-AUG-2012).</li>
+<li>Participated in State Level Seminar on “Recent Advances on Biological Sciences” organized by the UGC and Department of Zoology, Kongunadu Arts and Science College, Coimbatore (18-APR-2012).</li>
+<li>Participated in State Level Seminar on “Social, Emotional and Moral Development” organized by CMS College of Education, Coimbatore (21-APR-2012).</li></ol>
+
+</li></ul>
+    </section>
+<a href="#top" >Top</a>
+    <section id="awards">
+      <h2>Awards</h2>
+<ul><li>Certificate in Merit for Book Publication during the year 2022 – 2023.</li>
+<li>Appreciation Award for participating in the World Space Week Celebrations 2023 organized by Satish Dhawan Space Centre shar, Sriharikota ISRO and Kongunadu Arts and Science College, Coimbatore between 05-10-2023 and 07-10-2023.</li>
+<li>Contributed as a Reviewer in the 4th Springer International Conference on Data Engineering & Applications (IDEA-2K22) organized by Rajiv Gandhi Proudyogiki Vishwavidyalaya and Oriental Institute of Science and Technology on 23.12.2022 to 24.12.2022.</li>
+<li>Certificate in Merit for Journal Publication during the year 2018 – 2019.</li>
+<li>Certificate in Merit for Journal Publication during the year 2016 – 2017.</li>
+<li>Certificate in Merit for Journal Publication during the year 2015 – 2016.</li>
+<li>Certificate in Merit for Journal Publication during the year 2014 – 2015.</li></ol>
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="memberships">
+      <h2>Memberships</h2>
+<ul><li>Member in International Association of Engineers.</li>
+<li>Member in Indian Science Congress Association (ISCA), Kolkatta.</li>
+<li>Member in Universal Association of Computer and Electronics Engineers.</li>
+<li>Member in the Society of Digital Information and Wireless Communications. </li></ol>
+
+    </section>
+<a href="#top" >Top</a>
+    <section id="identity">
+      <h2>Academic Identity</h2>
+      <ul>
+        <li>ORCID:  https://orcid.org/0000-0003-1823-5839</li>
+        <li>LinkedIn ID: https://www.linkedin.com/in/haldurai</li>
+        <li>Vidwan ID: https://vidwan.inflibnet.ac.in/profile/173844 </li>
+      </ul>
+    </section>
+<a href="#top" >Top</a>
+    <section id="citations">
+      <h2>Google Scholar & ResearchGate Citation</h2>
+      <p>
+        Google Scholar: <a href="https://scholar.google.com/citations?user=RRMPGEkAAAAJ&hl=en" target="_blank">View Profile</a><br />
+        ResearchGate: <a href="https://www.researchgate.net/profile/Haldurai-Lingaraj" target="_blank">View Profile</a>
+      </p>
+    </section>
+<a href="#top" >Top</a>
+  <!--  <section id="personal">
+      <h2>Personal Information</h2>
+<pre>  
+Name			:	L. Haldurai
+Date of Birth		:	18-07-1985
+Gender			:	Male
+Father Name		:   	J. Lingaraj
+Address			:	39-Q, Meenakshi Nagar, Kavundampalayam, 
+					Coimbatore - 641030. Tamilnadu.
+Nationality		:	Indian
+Languages known	:	Tamil, English
+</pre>
+    </section>    -->
+    </main>
+  </div>
+
+</section>
+
+  <footer>
+    <p>&copy; 2025 Dr. [Your Name]. All rights reserved.</p>
+  </footer>
+</body>
+</html>
